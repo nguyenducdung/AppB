@@ -33,13 +33,4 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    class MyBroadcastReceiver extends BroadcastReceiver {
-
-        @Override
-        public void onReceive(Context context, Intent intent) {
-            Bundle bundle = intent.getExtras();
-            String text = bundle.getString("keyb");
-            Toast.makeText(context, text, Toast.LENGTH_SHORT).show();
-        }
-    }
 }
