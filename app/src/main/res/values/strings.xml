@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">App B</string>
+    <string name="app_b">Application B</string>
+    <string name="sub_b">Sub B</string>
+</resources>
